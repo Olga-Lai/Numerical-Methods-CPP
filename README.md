@@ -1,7 +1,7 @@
 # Numerical-Methods-CPP
 Modern C++ implementations of classical numerical methods with mathematical derivations, convergence analysis, and numerical examples.
 
-# Repository Structure
+## Directory Structure
 ```text
 Numerical-Methods-CPP
 │
@@ -11,5 +11,5 @@ Numerical-Methods-CPP
 └── 
 ```
 
-# License
+## License
 This project is released under the MIT License.
