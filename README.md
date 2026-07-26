@@ -6,8 +6,8 @@ Modern C++ implementations of classical numerical methods with mathematical deri
 Numerical-Methods-CPP
 │
 ├── root-finding/
-│   └──  bisection-method/
-│
+│   ├── bisection-method/
+│   └── falsePosition-method/
 └── 
 ```
 
