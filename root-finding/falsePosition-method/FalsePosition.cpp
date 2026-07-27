@@ -49,7 +49,8 @@ double falsePosition(
             );
         }
 
-        xr = (a * fb - b * fa) / denominator;
+        //xr = (a * fb - b * fa) / denominator;
+        xr = a - fa * (b-a) / denominator;
         double fxr = f(xr);
 
         std::cout << iteration + 1 << "            "
