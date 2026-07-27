@@ -7,7 +7,8 @@ Numerical-Methods-CPP
 │
 ├── root-finding/
 │   ├── bisection-method/
-│   └── falsePosition-method/
+│   ├── falsePosition-method/
+|   └── secant-method/
 └── 
 ```
 
