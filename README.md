@@ -5,7 +5,7 @@ Modern C++ implementations of classical numerical methods with mathematical deri
 
 Each method includes not only a C++ implementation but also the mathematical concepts behind the algorithm.
 
-| Method | Mathematical Topics |
+| Method | Key Concepts |
 |--------|---------------------|
 | Bisection Method | Intermediate Value Theorem (IVT), error bound, linear convergence |
 | False Position Method | Linear interpolation, secant line, linear convergence |
