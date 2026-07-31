@@ -1,6 +1,17 @@
 # Numerical-Methods-CPP
 Modern C++ implementations of classical numerical methods with mathematical derivations, convergence analysis, and numerical examples.
 
+## What's Covered
+
+Each method includes not only a C++ implementation but also the mathematical concepts behind the algorithm.
+
+| Method | Mathematical Topics |
+|--------|---------------------|
+| Bisection Method | Intermediate Value Theorem (IVT), error bound, linear convergence |
+| False Position Method | Linear interpolation, secant line, linear convergence |
+| Secant Method | Taylor expansion, order of convergence, superlinear convergence |
+
+
 ## Directory Structure
 ```text
 Numerical-Methods-CPP
