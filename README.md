@@ -19,7 +19,8 @@ Numerical-Methods-CPP
 ├── root-finding/
 │   ├── bisection-method/
 │   ├── falsePosition-method/
-|   └── secant-method/
+│   ├── secant-method/
+|   └── fixedPoint-method/
 └── 
 ```
 
