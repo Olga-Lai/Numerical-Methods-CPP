@@ -28,7 +28,7 @@ double fixedPoint(
     std::cout << "----------------------------------------\n";
 
     for (int iteration = 0; iteration < maxIterations; iteration++) {
-        double xNext = g(xCurrent);
+        const double xNext = g(xCurrent);
 
         if (!std::isfinite(xNext)) {
             throw std::runtime_error(
@@ -36,7 +36,7 @@ double fixedPoint(
             );
         }
 
-        double error = std::abs(xNext - xCurrent);
+        const double error = std::abs(xNext - xCurrent);
 
         std::cout << iteration + 1 << "            "
                   << xCurrent << "            "
@@ -50,7 +50,8 @@ double fixedPoint(
     }
 
     throw std::runtime_error(
-        "The method did not converge within the iteration limit."
+        "Fixed-Point Iteration did not converge "
+        "within the maximum number of iterations."
     );
 }
 
