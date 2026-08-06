@@ -37,7 +37,7 @@ double bisection(
             "The interval must contain a sign change.");
     }
 
-    std::cout << "Iteration    Midpoint       f(midpoint)\n";
+    std::cout << "Iteration    Approximation          f(x)\n";
     std::cout << "----------------------------------------\n";
 
 
@@ -49,8 +49,7 @@ double bisection(
                   << midpoint << "            "
                   << fm << '\n';
 
-        if (std::abs(fm) < tolerance ||
-            (b-a) < tolerance) {
+        if (std::abs(fm) < tolerance) {
             return midpoint;
             }
 
@@ -62,7 +61,10 @@ double bisection(
         }
     }
 
-    return a + (b-a) / 2.0;
+    throw std::runtime_error(
+    "Bisection Method did not converge "
+    "within the maximum number of iterations."
+    );
 }
 
 int main() {
