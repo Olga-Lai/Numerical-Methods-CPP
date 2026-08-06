@@ -37,12 +37,12 @@ double falsePosition(
             "The interval must contain a sign change.");
     }
 
-    std::cout << "Iteration    xr                    f(xr)\n";
+    std::cout << "Iteration    Approximation         f(xr)\n";
     std::cout << "----------------------------------------\n";
 
     double xr = a;
     for (int iteration = 0; iteration < maxIterations; iteration++) {
-        double denominator = fb - fa;
+        const double denominator = fb - fa;
         if (std::abs(denominator) < 1e-15) {
             throw std::runtime_error(
                 "The denominator is too small."
@@ -51,7 +51,7 @@ double falsePosition(
 
         //xr = (a * fb - b * fa) / denominator;
         xr = a - fa * (b-a) / denominator;
-        double fxr = f(xr);
+        const double fxr = f(xr);
 
         std::cout << iteration + 1 << "            "
                   << xr << "            "
@@ -71,7 +71,8 @@ double falsePosition(
     }
 
     throw std::runtime_error(
-        "The method did not converge within the iteration limit."
+        "False Position Method did not converge "
+        "within the maximum number of iterations."
     );
 }
 
