@@ -30,15 +30,15 @@ double secant(
     std::cout << "----------------------------------------\n";
 
     for (int iteration = 0; iteration < maxIterations; iteration++) {
-        double denominator = f1 - f0;
+        const double denominator = f1 - f0;
         if (std::abs(denominator) < 1e-15) {
             throw std::runtime_error(
                 "The denominator is too small."
             );
         }
 
-        double x2 = x1 - f1 * (x1 - x0) / denominator;
-        double f2 = f(x2);
+        const double x2 = x1 - f1 * (x1 - x0) / denominator;
+        const double f2 = f(x2);
 
         std::cout << iteration + 1 << "            "
                   << x2 << "            "
@@ -56,7 +56,8 @@ double secant(
     }
 
     throw std::runtime_error(
-        "The method did not converge within the iteration limit."
+        "Secant Method did not converge "
+        "within the maximum number of iterations."
     );
 }
 
