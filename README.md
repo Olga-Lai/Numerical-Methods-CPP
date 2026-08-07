@@ -21,7 +21,8 @@ Numerical-Methods-CPP
 │   ├── bisection-method/
 │   ├── falsePosition-method/
 │   ├── secant-method/
-|   └── fixedPoint-method/
+│   ├── fixedPoint-method/
+|   └── newton's-method/
 └── 
 ```
 
