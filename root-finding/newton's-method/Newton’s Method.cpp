@@ -28,7 +28,7 @@ double newtonMethod(
     std::cout << "Iteration    Approximation          f(x)\n";
     std::cout << "----------------------------------------\n";
 
-    for (int iteration = 1; iteration <= maxIterations; iteration++) {
+    for (int iteration = 0; iteration < maxIterations; iteration++) {
         const double fx = f(xCurrent);
         const double dfx = derivative(xCurrent);
 
@@ -42,7 +42,7 @@ double newtonMethod(
         const double fxNext = f(xNext);
 
         std::cout
-            << iteration << "            "
+            << iteration + 1 << "            "
             << xNext << "            "
             << fxNext << '\n';
 
