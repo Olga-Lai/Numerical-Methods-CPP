@@ -4,7 +4,7 @@ Modern C++ implementations of classical numerical methods with mathematical deri
 ## What's Covered
 
 Each method includes not only a C++ implementation but also the mathematical concepts behind the algorithm.
-
+### Root-Finding Methods
 | Method | Key Concepts |
 |--------|---------------------|
 | Bisection Method | Intermediate Value Theorem (IVT), error bound, linear convergence |
@@ -13,6 +13,10 @@ Each method includes not only a C++ implementation but also the mathematical con
 | Fixed Point Method | Limits, Continuity, Differentiability, local Convergence |
 | Newton's Method | Taylor's theorem with Lagrange remainder, quadratic Convergence |
 
+### Solving Linear Systems
+| Method | Key Concepts |
+|---|---|
+| Gaussian Elimination | Forward elimination, back substitution, partial pivoting, numerical stability |
 
 ## Directory Structure
 ```text
@@ -24,6 +28,9 @@ Numerical-Methods-CPP
 │   ├── secant-method/
 │   ├── fixedPoint-method/
 |   └── newton's-method/
+├── solving-linear-system/
+|   ├── Solving_Linear_Systems.pdf
+|   └── gaussian_elimination.cpp
 └── 
 ```
 
