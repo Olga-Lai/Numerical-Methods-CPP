@@ -40,8 +40,7 @@ std::vector<double> gaussianElimination(
         // 2. Check pivot
         if (std::abs(A[pivotRow][k]) < epsilon) {
             throw std::runtime_error(
-                "Matrix is singular or nearly singular."
-            );
+                "Matrix is singular or nearly singular.");
         }
 
         // 3. Swap rows
@@ -53,8 +52,7 @@ std::vector<double> gaussianElimination(
         // 4. Eliminate entries below pivot
         for (int i = k + 1; i < n; i++) {
 
-            const double multiplier =
-                A[i][k] / A[k][k];
+            const double multiplier = A[i][k] / A[k][k];
 
             for (int j = k; j < n; j++) {
                 A[i][j] -= multiplier * A[k][j];
@@ -106,7 +104,7 @@ int main() {
 
         std::cout << "Solution:\n";
 
-        for (int i = 0; i < x.size(); ++i) {
+        for (int i = 0; i < x.size(); i++) {
             std::cout
                 << "x" << i + 1
                 << " = " << x[i]
