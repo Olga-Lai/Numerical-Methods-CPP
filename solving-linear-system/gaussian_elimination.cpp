@@ -1,4 +1,5 @@
 #include <cmath>
+#include <iomanip>
 #include <iostream>
 #include <stdexcept>
 #include <vector>
@@ -89,21 +90,21 @@ int main() {
     std::vector<std::vector<double>> A = {
         { 2.0,  1.0, -1.0},
         {-3.0, -1.0,  2.0},
-        {-2.0,  1.0,  2.0}
+        {-2.0,  11.0,  2.0}
     };
 
     std::vector<double> b = {
-         8.0,
-       -11.0,
-        -3.0
+         8.2,
+       -11.5,
+        -3.7
     };
 
     try {
         const std::vector<double> x =
             gaussianElimination(A, b);
 
-        std::cout << "Solution:\n";
-
+        std::cout << "Solution (Gaussian Elimination):\n";
+        std::cout << std::fixed << std::setprecision(6);
         for (int i = 0; i < x.size(); i++) {
             std::cout
                 << "x" << i + 1
