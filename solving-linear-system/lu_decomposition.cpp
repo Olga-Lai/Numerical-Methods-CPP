@@ -1,4 +1,5 @@
 #include <cmath>
+#include <iomanip>
 #include <iostream>
 #include <stdexcept>
 #include <vector>
@@ -150,11 +151,12 @@ int main() {
     try {
         LUResult lu = luDecomposition(A);
 
+        std::cout << std::fixed << std::setprecision(6);
         printLU(lu);
 
         const std::vector<double> x = luSolve(lu, b);
 
-        std::cout << "Solution:\n";
+        std::cout << "Solution (LU Decomposition):\n";
         for (size_t i = 0; i < x.size(); ++i) {
             std::cout << "x" << i + 1 << " = " << x[i] << '\n';
         }
