@@ -18,6 +18,7 @@ Each method includes not only a C++ implementation but also the mathematical con
 | Method | Key Concepts |
 |---|---|
 | Gaussian Elimination | Forward elimination, back substitution, partial pivoting, numerical stability |
+| LU Decomposition | Connection to Gaussian Elimination, PA=LU, LU solving |
 
 ## Directory Structure
 ```text
@@ -32,7 +33,8 @@ Numerical-Methods-CPP
 │
 └── solving-linear-system/
     ├── Solving_Linear_Systems.pdf
-    └── gaussian_elimination.cpp
+    ├── gaussian_elimination.cpp
+    └── lu_decomposition.cpp
 ```
 
 ## License
