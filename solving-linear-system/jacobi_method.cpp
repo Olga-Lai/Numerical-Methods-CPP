@@ -46,7 +46,7 @@ std::vector<double> jacobiMethod(
         x = xNew;
 
         if (error < tolerance){
-            std::cout << "Iteration:" << n << "\n";
+            std::cout << "Iteration: " << n << "\n";
             break;
         }
 
@@ -64,7 +64,7 @@ std::vector<double> jacobiMethod(
         }
 
         if (residual < tolerance) {
-            std::cout << "Iteration:" << n << "\n";
+            std::cout << "Iteration: " << n << "\n";
             break;
         }*/
     }
@@ -86,7 +86,7 @@ int main()
 
     std::cout << std::fixed << std::setprecision(6);
 
-    std::cout << "Solution:\n";
+    std::cout << "Solution (Jacobi Method):\n";
     for (double x : solution)
         std::cout << x << "\n";
 
