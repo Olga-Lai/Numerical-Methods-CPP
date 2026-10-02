@@ -19,6 +19,7 @@ Each method includes not only a C++ implementation but also the mathematical con
 |---|---|
 | Gaussian Elimination | Forward elimination, back substitution, partial pivoting, numerical stability |
 | LU Decomposition | Connection to Gaussian Elimination, PA=LU, LU solving |
+| Jacobi Method | Iteration formula, Triangle inequality proof, Spectral radius, Convergence condition, Strict diagonal dominance |
 
 ## Directory Structure
 ```text
@@ -34,7 +35,8 @@ Numerical-Methods-CPP
 └── solving-linear-system/
     ├── Solving_Linear_Systems.pdf
     ├── gaussian_elimination.cpp
-    └── lu_decomposition.cpp
+    ├── lu_decomposition.cpp
+    └── jacobi_method.cpp
 ```
 
 ## License
