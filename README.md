@@ -36,7 +36,8 @@ Numerical-Methods-CPP
     ├── Solving_Linear_Systems.pdf
     ├── gaussian_elimination.cpp
     ├── lu_decomposition.cpp
-    └── jacobi_method.cpp
+    ├── jacobi_method.cpp
+    └── gauss_seidel_method.cpp
 ```
 
 ## License
