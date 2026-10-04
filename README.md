@@ -19,7 +19,8 @@ Each method includes not only a C++ implementation but also the mathematical con
 |---|---|
 | Gaussian Elimination | Forward elimination, back substitution, partial pivoting, numerical stability |
 | LU Decomposition | Connection to Gaussian Elimination, PA=LU, LU solving |
-| Jacobi Method | Iteration formula, Triangle inequality proof, Spectral radius, Convergence condition, Strict diagonal dominance |
+| Jacobi Method | Iteration formula, triangle inequality proof, spectral radius, convergence condition, strict diagonal dominance |
+| Gauss Seidal Method | Iteration formula, matrix formulation, convergence condition, SPD matrices |
 
 ## Directory Structure
 ```text
