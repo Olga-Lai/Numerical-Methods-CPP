@@ -53,7 +53,7 @@ mpirun -np 4 ./spatial_analysis data.grd output.txt
 
 Arguments:
 
-* `data.grd`: Input file containing spatial coordinate records.
+* `data.grd`: Input file containing spatial coordinate records. (Data can access from <https://data.gov.tw/dataset/176927>)
 * `output.txt`: Output file for points satisfying the filtering criteria.
 * `-np 4`: Runs the program using four MPI processes; change this value as needed.
 
