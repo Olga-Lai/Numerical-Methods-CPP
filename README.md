@@ -41,7 +41,8 @@ Numerical-Methods-CPP
 │   ├── lu_decomposition.cpp
 │   ├── jacobi_method.cpp
 │   └── gauss_seidel_method.cpp
-└──mai_project/
+│
+└──mpi_project/
     ├── main.c
     └── README.md
 ```
