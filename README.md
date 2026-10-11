@@ -22,6 +22,8 @@ Each method includes not only a C++ implementation but also the mathematical con
 | Jacobi Method | Iteration formula, triangle inequality proof, spectral radius, convergence condition, strict diagonal dominance |
 | Gauss Seidal Method | Iteration formula, matrix formulation, convergence condition, SPD matrices |
 
+### MPI Project
+
 ## Directory Structure
 ```text
 Numerical-Methods-CPP
@@ -33,12 +35,15 @@ Numerical-Methods-CPP
 │   ├── fixedPoint-method/
 │   └── newton's-method/
 │
-└── solving-linear-system/
+├── solving-linear-system/
     ├── Solving_Linear_Systems.pdf
     ├── gaussian_elimination.cpp
     ├── lu_decomposition.cpp
     ├── jacobi_method.cpp
     └── gauss_seidel_method.cpp
+└──mai_project/
+    ├── main.c
+    └── README.md
 ```
 
 ## License
