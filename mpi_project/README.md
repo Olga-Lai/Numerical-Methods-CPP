@@ -43,21 +43,6 @@ The point coverage percentage is estimated using 7,853 as the reference number o
 
 The neighborhood mean and standard deviation are calculated using Welford's algorithm to update the statistics incrementally as neighboring points are processed.
 
-## Technologies
-
-* **Language:** C
-* **Parallel Computing:** MPI
-* **File I/O:** MPI-IO
-* **Mathematical Operations:** Euclidean distance, mean, variance, and standard deviation
-
-## Compilation
-
-Compile the program using an MPI C compiler:
-
-```bash
-mpicc main.c -o spatial_analysis -lm
-```
-
 ## Execution
 
 Run the program with the desired number of MPI processes:
