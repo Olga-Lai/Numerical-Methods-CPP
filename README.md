@@ -23,6 +23,9 @@ Each method includes not only a C++ implementation but also the mathematical con
 | Gauss Seidal Method | Iteration formula, matrix formulation, convergence condition, SPD matrices |
 
 ### MPI Project
+| Method | Key Concepts |
+|---|---|
+| Parallel Spatial Data Processing | MPI parallel I/O, data partitioning, boundary handling, spatial neighborhood analysis |
 
 ## Directory Structure
 ```text
@@ -42,7 +45,7 @@ Numerical-Methods-CPP
 │   ├── jacobi_method.cpp
 │   └── gauss_seidel_method.cpp
 │
-└──mpi_project/
+└── mpi_project/
     ├── main.c
     └── README.md
 ```
