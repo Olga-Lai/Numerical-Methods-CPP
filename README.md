@@ -36,11 +36,11 @@ Numerical-Methods-CPP
 │   └── newton's-method/
 │
 ├── solving-linear-system/
-    ├── Solving_Linear_Systems.pdf
-    ├── gaussian_elimination.cpp
-    ├── lu_decomposition.cpp
-    ├── jacobi_method.cpp
-    └── gauss_seidel_method.cpp
+│   ├── Solving_Linear_Systems.pdf
+│   ├── gaussian_elimination.cpp
+│   ├── lu_decomposition.cpp
+│   ├── jacobi_method.cpp
+│   └── gauss_seidel_method.cpp
 └──mai_project/
     ├── main.c
     └── README.md
