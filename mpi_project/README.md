@@ -61,7 +61,7 @@ Each input record is expected to contain X, Y, and Z values in a grd format supp
 
 ## Performance Evaluation
 
-The program was tested with different numbers of MPI processes to evaluate the relationship between parallelism and execution time.
+The program was tested with different numbers of MPI processes to evaluate the relationship between parallelism and execution time on 9,380,253 data points.
 
 
 | Number of MPI Processes | Execution Time (min) |
