@@ -20,7 +20,8 @@ Each method includes not only a C++ implementation but also the mathematical con
 | Gaussian Elimination | Forward elimination, back substitution, partial pivoting, numerical stability |
 | LU Decomposition | Connection to Gaussian Elimination, PA=LU, LU solving |
 | Jacobi Method | Iteration formula, triangle inequality proof, spectral radius, convergence condition, strict diagonal dominance |
-| Gauss Seidal Method | Iteration formula, matrix formulation, convergence condition, SPD matrices |
+| Gauss-Seidal Method | Iteration formula, matrix formulation, convergence condition, SPD matrices |
+| Conjugate Gradient Method | Quadratic minimization, conjugate directions, iteration formula, gradient descent |
 
 ### MPI Project
 | Method | Key Concepts |
@@ -43,7 +44,8 @@ Numerical-Methods-CPP
 │   ├── gaussian_elimination.cpp
 │   ├── lu_decomposition.cpp
 │   ├── jacobi_method.cpp
-│   └── gauss_seidel_method.cpp
+│   ├── gauss_seidel_method.cpp
+│   └── conjugate_gradient.cpp
 │
 └── mpi_project/
     ├── main.c
